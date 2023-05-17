@@ -1,0 +1,207 @@
+/*responsive ipad*/
+@media (min-width: 768px) and (max-width: 800px){
+    .Event .event-section{
+        float: left;
+        width: 240px;
+        height: 400px;
+        background-color: white;  
+    }
+    .Event .event-section1{
+        float: left;
+        width: 240px;
+        height: 400px;
+        background-color: white;
+        margin-left: 8px;
+    }
+    .place-image{
+        width: 240px;
+        height: 185px;
+    }
+    .buy-ticket-out{
+        padding: 12px 10px;
+    }
+    .social-list{
+        font-size: 48px;
+    }
+    .make-by{
+        font-size: 20px;
+    }
+}
+/*responsive mobile*/
+@media (max-width: 740px){
+    .Event{
+
+    }
+    .Event .event-section{
+        float: left;
+        width: 240px;
+        height: 400px;
+        background-color: white;  
+        
+    }
+    .Event .event-section1{
+        float: left;
+        width: 240px;
+        height: 400px;
+        background-color: white;
+        margin: 0;
+    }
+    .place-image{
+        width: 100%;
+        height: 298px;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li{
+    display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        top: 100%;
+        background-color: rgb(60, 0, 100);
+        min-width: 160px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0);
+    }
+    #nav .subnav a{
+        color: white;
+    }
+    #header .SearchButton{
+    float: right;
+    padding: 0 24px;
+    line-height: 46px;
+    margin: auto;
+    display: none;
+    }
+    #header .SearchMenu{
+        float: right;
+        padding: 0 24px;
+        line-height: 46px;
+        margin: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #content .Content-header{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 4px;
+    color: #91A1F6;
+    }
+    #content .Content-decription{
+        font-size: 15px;
+        letter-spacing: 0.1px;
+        line-height: 1.5;
+        font-family: "Lato", sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /*Contact section*/
+    .contact-section{
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 1.5;
+        display: block;
+        padding: 8px;
+    }
+    #content .member-item{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    #content .image-change{
+        height: 240px;
+        width: 240px;
+    }
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .contact-info{
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 16px;
+    }
+    .contact-review{
+        float: left;
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .contact-review-section{
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    .form-control{
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-bottom: 8px;
+        border: 1px solid #ccc;
+    }
+    .contact-write{
+        width: 100%;
+        padding: 0;
+    }
+    #header{
+        overflow: hidden;
+    }
+    .Event .event-section{
+        width: 100%;
+        margin-bottom: 16px;
+        height: 482px;
+    }
+    .Event .event-section1{
+        width: 100%;
+        margin-bottom: 16px;
+        height: 482px;
+    }
+    .event-section .place-image{
+        width: 100%;
+        padding: 0;
+        height: 298px;
+       
+    }
+    .info-body{
+        line-height: 1;
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .buy-ticket-out{
+        width: 100%;
+    }
+    .Event{
+        
+    }
+    .send-button{
+        font-size: 14px;
+        background-color: #9fabe9;;
+        width: 70px;
+        height: 36px;
+        padding: 8px 8px;
+        float: right;
+        border: none;
+        width: 100%;
+    }
+    .send-button:hover{
+        opacity: 0.5;
+    }
+    .social-list{
+        font-size: 30px;
+    }
+    .social-list a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .make-by{
+        font-size: 20px;
+    }
+}
